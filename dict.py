@@ -35,5 +35,5 @@ for value in sneakers.values():
 	print(value)
 
 student = dict(name='Ivan', age=12)
-student.setdefault('lastname', 'Ivanov')
+student.setdefault('lastname', 'Kabanov')
 print(student)
