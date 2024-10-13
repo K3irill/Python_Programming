@@ -37,3 +37,41 @@ for value in sneakers.values():
 student = dict(name='Ivan', age=12)
 student.setdefault('lastname', 'Kabanov')
 print(student)
+
+# кортеж
+
+T = (1,2,3,4)
+len(T)
+T = T + (5,6)
+print(T)
+
+# сеты(уникумы)
+
+cities = ['Санкт-Петербург', 'Хабаровск', 'Казань', 'Санкт-Петербург', 'Казань']
+un_cities = set(cities)
+
+un_cities.add('Волгоград')
+
+un_cities.discard('Волгоград')
+
+un_cities.clear()
+print(un_cities)
+
+# Проверяет, сосоит ли строка из одних только цифр
+"a".isdigit() #False
+"a10".isdigit() #False
+"10".isdigit() #True
+isalpha()
+
+# Проверяет, состоит ли строка из одних букв:
+
+"a".isalpha() #True
+"a100".isalpha() #False
+"a--  ".isalpha() #False
+"a ".isalpha() #False
+isalnum()
+
+# позволяет проверить, состоит ли строка из букв или цифр:
+
+"a".isalnum() #True
+"a10".isalnum() #True

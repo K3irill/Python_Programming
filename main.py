@@ -46,6 +46,10 @@ elif 10 * num > 2:
 else:
 	print('no, its false')
 
+if 2 > 2 & 2 < 4:
+	print('any')
+
+
 x = randint(1, 100)
 print(x)
 
@@ -72,3 +76,9 @@ while total_num < 25:
 else: 
 	print('end')
 
+items = [1, 2, 3]
+empty_list = []
+bool(empty_list) #False
+bool(items) #True
+bool(0) #False
+bool(1) #True
