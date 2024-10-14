@@ -46,3 +46,9 @@ newArr = list()
 for n in result3: newArr.append(n)
 readyStr = ''.join(newArr)
 print(readyStr)
+
+def whatCentury(year):
+    century = year // 100
+    if year % 100 != 0:
+        return century + 1 + 'th'
+    else: return century + 'th'

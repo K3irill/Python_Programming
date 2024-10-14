@@ -57,11 +57,11 @@ un_cities.discard('Волгоград')
 un_cities.clear()
 print(un_cities)
 
-# Проверяет, сосоит ли строка из одних только цифр
+# Проверяет, состоит ли строка из одних только цифр
 "a".isdigit() #False
 "a10".isdigit() #False
 "10".isdigit() #True
-isalpha()
+# isalpha()
 
 # Проверяет, состоит ли строка из одних букв:
 
@@ -69,7 +69,7 @@ isalpha()
 "a100".isalpha() #False
 "a--  ".isalpha() #False
 "a ".isalpha() #False
-isalnum()
+# isalnum()
 
 # позволяет проверить, состоит ли строка из букв или цифр:
 
